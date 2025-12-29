@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5.1" type="package" method="upgrade">
+	<name>Package - miniOrange Two Factor Authentication 2FA for Joomla</name>
+	<packagename>miniorangetfa</packagename>
+	<version>5.0.3</version>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+    <authorEmail>info@xecurify.com</authorEmail>
+    <authorUrl>https://www.miniorange.com/</authorUrl>
+    <copyright>Copyright (C) 2015 miniOrange. All rights reserved.</copyright>
+    <license>GNU General Public License version 3; see LICENSE.txt</license> 
+	<creationDate>Dec 2019</creationDate>
+	<scriptfile>pkg_script.php</scriptfile>
+	<files>
+		
+		<file type="library" id="miniorangetfa">lib_miniorangetfa.zip</file>
+		<file type="plugin" id="miniorangetfaredirect_plugin" group="system">plg_system_miniorangetfaredirect.zip</file>
+		<file type="plugin" id="miniorangetfa_plugin" group="user">plg_user_miniorangetfa.zip</file>
+		<file type="plugin" id="miniorangeauthtfa_plugin" group="authentication">plg_authentication_miniorangeauthtfa.zip</file>
+		<file type="component" id="miniorangetfac" >com_miniorange_twofa.zip</file>
+		
+	</files>
+    <languages>
+        	<language tag="en-GB">language/en-GB/en-GB.pkg_miniorangetfa.ini</language>
+        	<language tag="en-GB">language/en-GB/en-GB.pkg_miniorangetfa.sys.ini</language>
+			<language tag="de-DE">language/de-DE/de-DE.pkg_miniorangetfa.ini</language>
+			<language tag="de-DE">language/de-DE/de-DE.pkg_miniorangetfa.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.pkg_miniorangetfa.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.pkg_miniorangetfa.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.pkg_miniorangetfa.ini</language>
+        	<language tag="ru-RU">language/ru-RU/ru-RU.pkg_miniorangetfa.sys.ini</language>
+			<language tag="th-TH">language/th-TH/th-TH.pkg_miniorangetfa.ini</language>
+			<language tag="th-TH">language/th-TH/th-TH.pkg_miniorangetfa.sys.ini</language>
+    </languages>
+    <updateservers>
+		<server type="extension" priority="1" name="2fa">https://miniorange.com/joomla_twofa_update.xml</server>
+	</updateservers>
+</extension>
