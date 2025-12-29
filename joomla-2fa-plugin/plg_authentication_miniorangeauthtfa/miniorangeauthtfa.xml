@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="authentication" method="upgrade">
+	<name>Authentication - miniOrange 2FA</name>
+	<creationDate>Dec 2019</creationDate>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+    <authorEmail>info@xecurify.com</authorEmail>
+    <authorUrl>https://www.miniorange.com/</authorUrl>
+    <copyright>Copyright (C) 2015 miniOrange. All rights reserved.</copyright>
+    <license>GNU General Public License version 3; see LICENSE.txt</license> 
+	<version>5.0.3</version>
+	<description>PLG_AUTHENTICATION_MINIORANGETFA_DESCRIPTION_EN</description>
+	<files>
+		<filename plugin="miniorangeauthtfa">miniorangeauthtfa.php</filename>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_authentication_miniorangeauthtfa.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_authentication_miniorangeauthtfa.sys.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_authentication_miniorangeauthtfa.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_authentication_miniorangeauthtfa.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_authentication_miniorangeauthtfa.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_authentication_miniorangeauthtfa.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_authentication_miniorangeauthtfa.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_authentication_miniorangeauthtfa.sys.ini</language>
+		<language tag="th-TH">language/th-TH/th-TH.plg_authentication_miniorangeauthtfa.ini</language>
+		<language tag="th-TH">language/th-TH/th-TH.plg_authentication_miniorangeauthtfa.sys.ini</language>
+	</languages>
+	<scriptfile>tfa_authentication_script.php</scriptfile>
+</extension>
