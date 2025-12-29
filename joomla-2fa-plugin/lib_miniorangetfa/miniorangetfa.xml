@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>LIB_MINIORANGETFA_NAME</name>
+    <libraryname>miniorangetfa</libraryname>
+    <creationDate>Dec 2019</creationDate>
+    <author>miniOrange Security Software Pvt. Ltd.</author>
+    <authorEmail>info@xecurify.com</authorEmail>
+    <authorUrl>https://www.miniorange.com/</authorUrl>
+    <copyright>Copyright (C) 2015 miniOrange. All rights reserved.</copyright>
+    <license>GNU General Public License version 3; see LICENSE.txt</license> 
+    <version>5.0.3</version>
+    <description>LIB_MINIORANGE_TFA_DESCRIPTION</description>
+    <files>
+        <folder>utility</folder>
+    </files>
+    <languages>
+            <language tag="en-GB">language/en-GB/en-GB.lib_miniorangetfa.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.lib_miniorangetfa.sys.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.lib_miniorangetfa.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.lib_miniorangetfa.sys.ini</language>
+            <language tag="fr-FR">language/fr-FR/fr-FR.lib_miniorangetfa.ini</language>
+            <language tag="fr-FR">language/fr-FR/fr-FR.lib_miniorangetfa.sys.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.lib_miniorangetfa.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.lib_miniorangetfa.sys.ini</language>
+            <language tag="th-TH">language/th-TH/th-TH.lib_miniorangetfa.ini</language>
+            <language tag="th-TH">language/th-TH/th-TH.lib_miniorangetfa.sys.ini</language>
+    </languages>
+</extension>
