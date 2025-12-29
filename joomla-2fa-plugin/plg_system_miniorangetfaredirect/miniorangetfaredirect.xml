@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_MINIORANGETFAREDIRECT_NAME</name>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+    <authorEmail>info@xecurify.com</authorEmail>
+    <authorUrl>https://www.miniorange.com/</authorUrl>
+    <copyright>Copyright (C) 2015 miniOrange. All rights reserved.</copyright>
+    <license>GNU General Public License version 3; see LICENSE.txt</license> 
+	<creationDate>Dec 2019</creationDate>
+	<version>5.0.3</version>
+	<description>PLG_SYSTEM_MINIORANGETFAREDIRECT_DESCRIPTION</description>
+	<files>
+		<filename plugin="miniorangetfaredirect" group="system">miniorangetfaredirect.php</filename>
+	</files>
+	<languages>
+        	<language tag="en-GB">language/en-GB/en-GB.plg_system_miniorangetfaredirect.ini</language>
+        	<language tag="en-GB">language/en-GB/en-GB.plg_system_miniorangetfaredirect.sys.ini</language>
+			<language tag="de-DE">language/de-DE/de-DE.plg_system_miniorangetfaredirect.ini</language>
+			<language tag="de-DE">language/de-DE/de-DE.plg_system_miniorangetfaredirect.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.plg_system_miniorangetfaredirect.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.plg_system_miniorangetfaredirect.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_miniorangetfaredirect.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_miniorangetfaredirect.sys.ini</language>
+			<language tag="th-TH">language/th-TH/th-TH.plg_system_miniorangetfaredirect.ini</language>
+			<language tag="th-TH">language/th-TH/th-TH.plg_system_miniorangetfaredirect.sys.ini</language>
+    </languages>
+	<scriptfile>tfa_system_script.php</scriptfile>
+</extension>
